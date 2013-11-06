@@ -42,7 +42,7 @@ function renderDrink(entries) {
 
     $.each(entries, function(){
         clone = template.clone();
-        clone.find('.name').html(this.name + " $" + this.price);
+        clone.find('.name').html(this.name);
          clone.find('.prices').html("$" + this.price);
         clone.removeClass('template');
         drinksContainer.append(clone);

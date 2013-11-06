@@ -209,33 +209,45 @@ dd {
 	margin-bottom: 10px;
 }
 
-p.name {
+span.name {
 	font-size: 120%;
-	/*border-bottom:2px solid #7E8F81;*/
-	margin-bottom: 10px;
-	margin-top: 10px;
-	color: #565755;
-}
-
-p.price {
-	color: #EEE;
-}
-
-.description {
+	color: #4F1887;
+	font-weight: bold;
 	font-family: 'Varela Round', sans-serif;
+	
+}
+
+span.prices {
+	color: black;
+	font-style: italic;
+	font-size: 110%
+
+}
+
+
+p.pizzaPrice {
+	padding-bottom: 10px;
+}
+
+span.description {
 	font-size: 90%;
 	margin-bottom: 10px;
+	
+	color: #565755;
 }
 
 .des {
 	font-size: 120%;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	font-color: #2E2E2D;
+	color: #2E2E2D;
 }
 
 li {
 	font-family: 'Varela Round', sans-serif;
+	color: #4F1887;
+	font-style: bold;
+	margin-bottom: 5px;
 }
 
 .oven {
